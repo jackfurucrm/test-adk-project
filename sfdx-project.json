@@ -1,0 +1,26 @@
+{
+  "packageDirectories" : [
+    {"path": "sfdx-source/force-app", "default": true}
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "43.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "producerAlias"   : "furu",
+      "producerName"    : "furucrm",
+      "projectAlias"    : "furu-demo-app",
+      "projectName"     : "FuruCRM demo app",
+      "projectType"     : "appx:single-demo",
+      "defaultRecipe"   : "demo-recipe.json",
+      "gitRemoteUri"    : "https://github.com/jackfurucrm/test-adk-project.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.92",
+      "appxPackage"     : {},
+      "appxDemo": {
+        "demoRecipes"   : ["demo-recipe.json"]
+      }
+    }			
+  }
+}
